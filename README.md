@@ -97,3 +97,9 @@ With that in mind, I've analyzed prison population growth across four different 
 ### Next Best Performing
 ![correctedrfc](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/corrected%20rfc.png)
 ![rfccm](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rfc%20cm.png)
+
+
+## Next Steps
+
+#### Expand classifier model selection. Eliminate model tuning with low scoring models. Include XGBoost classifier.
+#### Attempt different class weights so that FNs will be penalized, perhaps increasing recall scores. 
