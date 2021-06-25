@@ -15,3 +15,19 @@
 As the United States often is reported as having the highest incarceration rate in the world, I felt it prudent to take a look at: prison population growth and recidivism. Taking a cursory look at the statistics and sources above, it became apparent that incarceration is much more about being incarcerated. More often than not, incarceration involves an unknown amount of hidden variables, debilitating for those imprisoned and those funding it. 
 
 With that in mind, I've analyzed prison population growth across four different states (Iowa, Pennsylvania, Louisiana, and Massachusetts), each representing different incarceration rates, and built a classification model to analyze recidivism in Iowa. 
+
+![rank](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/percent_incarcerated.png)
+
+## Procedure 
+#### 1. Gather Data
+  - [Sentencing Project, State Imprisonment Rate](https://www.sentencingproject.org/the-facts/#rankings)
+    - Used for isolating and comparing different state incarceration numbers.
+  - [Bureau of Justice Statistics](https://www.bjs.gov/recidivism_2005_arrest/#)
+    - Used in conjunction with the Iowa Department of Corrections to analyze recidivism across the US.
+  - [Iowa Department of Corrections](https://data.iowa.gov/Correctional-System/3-Year-Recidivism-for-Offenders-Released-from-Pris/mw8r-vqy4)
+    - Data for classification modeling.
+  - [Prison Policy Initiative](https://www.prisonpolicy.org/profiles/)
+    - Supporting data. 
+#### 2. Clean and Investigate Data
+  
+  
