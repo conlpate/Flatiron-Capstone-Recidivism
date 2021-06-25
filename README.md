@@ -66,7 +66,9 @@ With that in mind, I've analyzed prison population growth across four different 
 
 #### Offense Type
 ![offense](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20sex%20and%20offense.png)
-  - 
+  - As with parole, we see a relationship between demographics and sentencing/release. 
+    - Perhaps, surprisingly, violent offenses don't always relate to recidivism. As to whether this is due to parole or type of violent crime, we are unable to state definitively based on the information we have at hand. 
+    - We can say different types of convicting offenses suggest higher rates of recidivism than others, especially within genders. 
 
 
   
