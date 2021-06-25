@@ -46,5 +46,19 @@ With that in mind, I've analyzed prison population growth across four different 
   - Since our primary focus is on classifying recidivism, we simply want some basic plotting of prison populations. 
   - Forecasting and modeling can be saved for larger datasets. 
     
-  
+## Relationships
+
+#### Demographics
+![dist](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20ethnicity.png)
+  - Looking at Iowa's prison population without accounting for recidivism can be somewhat misleading. 
+![intro](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20sex%20and%20ethnicity.png)
+  - While White Non-Hispanic Iowans make up the majority of inmates between 2010 and 2018, a closer look involving recidivism opens the door to further conversations. 
+    - Note, we clearly do not have enough information on every ethnicity to comment, as seen by our error bars. 
+    - However, we see a near equal distribution of recidivists across ethnicities and genders. Suggesting, based on this data, we need more information aside from plain demographics to draw relationships. 
+
+#### Release Type
+![rtype](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20with%20release%20type.png)
+- 
+
+
   
