@@ -71,4 +71,21 @@ With that in mind, I've analyzed prison population growth across four different 
     - We can say different types of convicting offenses suggest higher rates of recidivism than others, especially within genders. 
 
 
-  
+## Modeling and Results
+
+#### I constructed and tuned the following classifiers: 
+  - Logistic regression
+  - Decision trees
+  - Random forest classifier
+  - SVC
+  - LinearSVC
+
+#### Out of the above models, SVC (support vector machine classifier) and LinearSVC outperformed the others. 
+
+### Model Scores
+##### Overview: 
+  - "Given a set of training examples, each marked as belonging to one of two categories, an SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a probabilistic classification setting). SVM maps training examples to points in space so as to maximise the width of the gap between the two categories. New examples are then mapped into that same space and predicted to belong to a category based on which side of [the gap they fall."](https://en.wikipedia.org/wiki/Support-vector_machine)
+
+![Scores](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/scores.png)
+#### 
+
