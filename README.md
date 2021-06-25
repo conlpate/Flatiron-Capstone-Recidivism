@@ -8,9 +8,12 @@
 - 450,000 are incarcerated "for nonviolent drug offenses on [any given day."](https://www.prisonpolicy.org/reports/pie2020.html)
 - Those in prison who suffer from violence, an estimated 21% of men, often suffer from severe [trauma upon released.](https://www.prisonpolicy.org/blog/2017/06/22/mental_health/)
 
-## Project Overview
+## Project Overview and Objectives
 
 ![global](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/incarc%20nato.png)
+
+### Analyze relationships among recidivists and variable importance. 
+### Use various classifiers to predict recidivism among Iowa inmates.
 
 As the United States often is reported as having the highest incarceration rate in the world, I felt it prudent to take a look at: prison population growth and recidivism. Taking a cursory look at the statistics and sources above, it became apparent that incarceration is much more about being incarcerated. More often than not, incarceration involves an unknown amount of hidden variables, debilitating for those imprisoned and those funding it. 
 
