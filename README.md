@@ -45,6 +45,8 @@ With that in mind, I've analyzed prison population growth across four different 
 #### 4. Time Series Visualizations
   - Since our primary focus is on classifying recidivism, we simply want some basic plotting of prison populations. 
   - Forecasting and modeling can be saved for larger datasets. 
+![comparison](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20changing%20prison%20pop.png)
+
     
 ## Relationships
 
@@ -58,7 +60,13 @@ With that in mind, I've analyzed prison population growth across four different 
 
 #### Release Type
 ![rtype](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20with%20release%20type.png)
-- 
+  - Parole seems to be one of the biggest indicators for both recidivists and non-recidivists. 
+    - More information needs to be available for the type of parole, past history of probation, and type of recidivism and corresponding type of release. 
+    - Based on the informataion on hand, however, we can recommend a closer look at parole over other types of release. 
+
+#### Offense Type
+![offense](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/rec%20sex%20and%20offense.png)
+  - 
 
 
   
