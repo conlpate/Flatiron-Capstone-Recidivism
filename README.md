@@ -29,5 +29,19 @@ With that in mind, I've analyzed prison population growth across four different 
   - [Prison Policy Initiative](https://www.prisonpolicy.org/profiles/)
     - Supporting data. 
 #### 2. Clean and Investigate Data
+  - What information is being reported? 
+    - Are we missing any data in demographics, conviction types, etc? 
+  - How is the information grouped? 
+    - Breaking out and identifying features of note. 
+#### 3. EDA
+  - Identify features of note. 
+    - What demographics, if any, are indicative of recidivism?
+    - Does release type play a role in recidivism? Conviction type?
+  - Identify relationships between features.
+    - What demographics, if any, are indicative of recidivism? 
+#### 4. Time Series Visualizations
+  - Since our primary focus is on classifying recidivism, we simply want some basic plotting of prison populations. 
+  - Forecasting and modeling can be saved for larger datasets. 
+    
   
   
