@@ -81,7 +81,7 @@ With that in mind, I've analyzed prison population growth across four different 
 
 #### Out of the above models, SVC (support vector machine classifier) and LinearSVC outperformed the others. 
 
-### Model Scores
+### Top Model Scores
 #### Note: While a standard SVC can be equipped with a 'linear' attribute, to eliminate performance and time waste, I separated the two for gridsearch and model analysis. In that sense, we could simply say our support vector machine classifier outperformed the other classifiers, 'linear' attribute or no. 
     - The scores are neaarly identical, but I include both to compare tuning times without subsampling the data. 
 ##### Overview: 
@@ -89,5 +89,9 @@ With that in mind, I've analyzed prison population growth across four different 
 
 
 ![Scores](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/scores.png)
-### Analysis: As seen in the notebook, our data needed oversampling to fix its imbalance issues and feature selection to eliminate any overfitting. However, our scores are still not ideal. Our recall scores stay consistent across various SVC iterations, hovering between 62-65%. 
+![cmlsvc](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/linearsvctuned.png)
+#### Analysis: As seen in the notebook, our data needed oversampling to fix its imbalance issues and feature selection to eliminate any overfitting. However, our scores are still not ideal. Our recall scores stay consistent across various SVC iterations, hovering between 62-65%. 
+![linearsvcroc](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/linearsvc%20roc.png)
 
+
+### Next Best Performing
