@@ -77,15 +77,17 @@ With that in mind, I've analyzed prison population growth across four different 
   - Logistic regression
   - Decision trees
   - Random forest classifier
-  - SVC
-  - LinearSVC
+  - SVC / LinearSVC
 
 #### Out of the above models, SVC (support vector machine classifier) and LinearSVC outperformed the others. 
 
 ### Model Scores
+#### Note: While a standard SVC can be equipped with a 'linear' attribute, to eliminate performance and time waste, I separated the two for gridsearch and model analysis. In that sense, we could simply say our support vector machine classifier outperformed the other classifiers, 'linear' attribute or no. 
+    - The scores are neaarly identical, but I include both to compare tuning times without subsampling the data. 
 ##### Overview: 
   - "Given a set of training examples, each marked as belonging to one of two categories, an SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a probabilistic classification setting). SVM maps training examples to points in space so as to maximise the width of the gap between the two categories. New examples are then mapped into that same space and predicted to belong to a category based on which side of [the gap they fall."](https://en.wikipedia.org/wiki/Support-vector_machine)
 
+
 ![Scores](https://github.com/conlpate/Flatiron-Capstone-Recidivism/blob/main/images/scores.png)
-#### 
+### Analysis: As seen in the notebook, our data needed oversampling to fix its imbalance issues and feature selection to eliminate any overfitting. However, our scores are still not ideal. Our recall scores stay consistent across various SVC iterations, hovering between 62-65%. 
 
