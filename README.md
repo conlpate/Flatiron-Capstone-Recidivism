@@ -103,3 +103,4 @@ With that in mind, I've analyzed prison population growth across four different 
 
 #### Expand classifier model selection. Eliminate model tuning with low scoring models. Include XGBoost classifier.
 #### Attempt different class weights so that FNs will be penalized, perhaps increasing recall scores. 
+#### Expand data collection. 
